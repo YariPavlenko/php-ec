@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana;
+}
+
+p{
+    margin: 0;
+    left: 0;
+}
+form{
+    width: 500px;
+    margin: auto;
+    border: 1px solid #dadada;
+    padding: 50px;
+    border-radius: 8px  ;
+}
+
+form input{
+    width: 100%;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding: 5px;
+}
+form input[type="submit"]{
+    padding: 7px;
+    cursor: pointer;
+}
+form p.title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+form p.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
